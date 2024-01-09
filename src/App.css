@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.gptall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ricon{
+    margin-right: 5px;
+    padding: 5px;
+    height: 30px;
+    width: auto;
+}
+
+.right-bar{
+  width: 100%;
+  position: static;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 10px;
+}
+.rgbt{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.right-bar-messages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px 150px 0px;
+}
+
+.right-bar-messagefixed{
+    background-color: #f2f2f2;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.right-bar-question{
+    background-color: #f2f2f2;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    margin-block: 10px;
+}
+
+.right-bar-answer{
+    background-color: #f2f2f2;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    margin-block: 10px;
+}
+
+.message{
+    margin: 0;
+    line-height: 1.75rem;
+    font-size: 16px;
+}
+
+.right-bar-message-icon{
+    width: 30px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.right-bar-answer-icon{
+    width: 30px;
+    height: auto;
+    margin-right: 15px;
+}
+
+
+.right-bar-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-color: white;
+}
+
+.right-bar-footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  border: 1px solid #cdcdcd;
+  border-radius: 15px;
+  padding: 5px 10px;
+  background-color: white;
+}
+
+textarea{
+    width: calc(100% - 45px);
+    resize: none;
+    padding: 10px 5px;
+    border: none;
+    font-size: medium;
+    height: 20px;
+}
+textarea:focus{
+    outline: none;
+}
+textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.arrowicon{
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
